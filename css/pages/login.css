@@ -1,0 +1,90 @@
+.__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.__branding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branding);
+    min-height: 100vh;
+    color: white;
+}
+
+.__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.__form__title {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 0.5rem;
+}
+
+.__form__title span {
+    color: var(--gray);
+}
+
+.__form__body {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.__form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.__form__group input {
+    border: 2px solid var(--border);
+    border-radius: 6px;
+    height: 1.5rem;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.__form__group label {
+    color: #2D3648;
+    font-size: 1rem;
+}
+
+.__form__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.__form__actions button {
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--white);
+    width: 100%;
+    border: none;
+    background-color: var(--branding);
+    padding: 0.5rem;
+    height: 3rem;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.__form__back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.__form__back span a {
+    text-decoration: none;
+    color: var(--branding);
+}
